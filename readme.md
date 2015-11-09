@@ -1,12 +1,12 @@
-# grunt-strip-debug [![Build Status](https://travis-ci.org/sindresorhus/grunt-strip-debug.svg?branch=master)](https://travis-ci.org/sindresorhus/grunt-strip-debug)
+# grunt-strip-nglog
 
-> Strip `console`, `alert`, and `debugger` statements from JavaScript code with [strip-debug](https://github.com/sindresorhus/strip-debug)
+> Strip `$log` statements from JavaScript code with [strip-debug](https://github.com/gazoakley/strip-nglog)
 
 
 ## Install
 
 ```sh
-$ npm install --save-dev grunt-strip-debug
+$ npm install --save-dev grunt-strip-nglog
 ```
 
 
@@ -16,7 +16,7 @@ $ npm install --save-dev grunt-strip-debug
 require('load-grunt-tasks')(grunt); // npm install --save-dev load-grunt-tasks
 
 grunt.initConfig({
-	stripDebug: {
+	stripNgLog: {
 		dist: {
 			files: {
 				'dist/app.js': 'src/app.js'
