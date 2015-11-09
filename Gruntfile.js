@@ -1,7 +1,7 @@
 'use strict';
 module.exports = function (grunt) {
 	grunt.initConfig({
-		stripDebug: {
+		stripNgLog: {
 			test: {
 				files: {
 					'tmp/fixture.js': 'fixture.js'
@@ -24,7 +24,7 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('default', [
 		'clean',
-		'stripDebug',
+		'stripNgLog',
 		'simplemocha',
 		'clean'
 	]);
