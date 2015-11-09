@@ -1,1 +1,1 @@
-function test(){debugger;}
+function test(){$log.debug('foo');}
