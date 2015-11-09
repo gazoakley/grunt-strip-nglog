@@ -1,13 +1,13 @@
 {
-  "name": "grunt-strip-debug",
-  "version": "1.0.1",
-  "description": "Strip console and debugger statements from JavaScript code",
+  "name": "grunt-strip-nglog",
+  "version": "0.0.1",
+  "description": "Strip $log statements from JavaScript code",
   "license": "MIT",
-  "repository": "sindresorhus/grunt-strip-debug",
+  "repository": "gazoakley/grunt-strip-nglog",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
+    "name": "Gareth Oakley",
+    "email": "gaz@gazoakley.com",
+    "url": "http://gazoakley.com"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -37,7 +37,7 @@
   ],
   "dependencies": {
     "each-async": "^1.0.0",
-    "strip-debug": "^1.0.0"
+    "strip-nglog": "gazoakley/strip-nglog"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
