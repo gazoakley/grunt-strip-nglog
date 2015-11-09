@@ -1,6 +1,6 @@
 # grunt-strip-nglog
 
-> Strip `$log` statements from JavaScript code with [strip-debug](https://github.com/gazoakley/strip-nglog)
+> Strip `$log` statements from JavaScript code with [strip-nglog](https://github.com/gazoakley/strip-nglog)
 
 
 ## Install
@@ -25,7 +25,7 @@ grunt.initConfig({
 	}
 });
 
-grunt.registerTask('default', ['stripDebug']);
+grunt.registerTask('default', ['stripNgLog']);
 ```
 
 
